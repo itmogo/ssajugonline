@@ -3,6 +3,7 @@
     --primary: #32C36C;
     --light: #F6F7F8;
     --dark: #1A2A36;
+    --primary-new: #ebe716;
 }
 
 .fw-medium {
@@ -100,7 +101,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--primary-new);
 }
 
 .navbar .dropdown-toggle::after {
@@ -533,7 +534,7 @@
 }
 
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+    color: var(--primary-new);
     border-color: var(--light);
 }
 
