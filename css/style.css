@@ -537,6 +537,7 @@
 .footer .btn.btn-social:hover {
     color: var(--primary);
     border-color: var(--light);
+    background-color: var(--primary-new);
 }
 
 .footer .btn.btn-link {
