@@ -181,6 +181,18 @@
     }
 }
 
+@media (max-width: 487px) {
+   
+    .header-carousel .owl-carousel-item h6,
+    .header-carousel .owl-carousel-item p
+    
+    {
+        font-size: 10px !important;
+
+    }
+}
+
+
 .header-carousel .owl-dots {
     position: absolute;
     width: 60px;
