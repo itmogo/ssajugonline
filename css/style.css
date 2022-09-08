@@ -3,7 +3,7 @@
     --primary: #3240c3;
     --light: #F6F7F8;
     --dark: #1A2A36;
-    --primary-new: #ebe716;
+    --primary-new: rgb(197, 149, 16)
     
 }
 
@@ -49,9 +49,15 @@
     transition: .5s;
 }
 
+.btn-primary{
+    color: var(--primary);
+
+}
+
 .btn.btn-primary,
 .btn.btn-outline-primary:hover {
     color: #FFFFFF;
+    background-color: var(--primary);
 }
 
 .btn-square {
@@ -269,7 +275,7 @@
 
 .service-item:hover .service-icon {
     color: #FFFFFF;
-    background: var(--primary-new);
+    
 }
 
 
@@ -544,7 +550,7 @@
     display: block;
     margin-bottom: 5px;
     padding: 0;
-    text-align: left;
+    text-align: left;    
     color: #9B9B9B;
     font-weight: normal;
     text-transform: capitalize;
@@ -584,12 +590,16 @@
    
   }
 
-  .list-mission {
+  .list-mission {   
+    text-align: justify;    
    
-   
-    text-align: justify;
-    
-   
+  }
+
+  .blue-color{
+    color: var(--primary);
+  }
+  .yellow-color{
+    color: rgb(197, 149, 16)
   }
 
  
