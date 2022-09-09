@@ -5,6 +5,7 @@
     --dark: #1A2A36;
     --primary-new: rgb(197, 149, 16)
     
+    
 }
 
 .fw-medium {
@@ -25,6 +26,7 @@
     right: 45px;
     bottom: 45px;
     z-index: 99;
+
 }
 
 
@@ -56,6 +58,7 @@
 
 .btn.btn-primary,
 .btn.btn-outline-primary:hover {
+    
     color: #FFFFFF;
     background-color: var(--primary);
 }
@@ -99,7 +102,19 @@
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: var(--dark);
+    color: rgb(197, 149, 16);
+    /* color: var(--dark); */
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: none;
+} 
+
+.navbar .navbar-nav .nav-link li:hover{
+    margin-right: 30px;
+    padding: 25px 0;
+    color: var(--primary);
+    /* color: var(--dark); */
     font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
@@ -118,6 +133,7 @@
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
+    color: var(--primary);
 }
 
 @media (max-width: 991.98px) {
@@ -147,6 +163,7 @@
         visibility: visible;
         transition: .5s;
         opacity: 1;
+        
     }
 }
 
@@ -612,6 +629,16 @@
   }
   .yellow-color{
     color: rgb(197, 149, 16)
+  }
+
+  .navbar  .dropdown-menu a:hover{
+    background-color:rgba(197, 149, 16);
+    color: var(--primary)
+  }
+
+  .navbar .dropdown-menu a{
+    
+    color: rgba(197, 149, 16);
   }
 
  
