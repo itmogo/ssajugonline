@@ -92,6 +92,7 @@
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
+    background-color: rgb(197, 149, 16);
 }
 
 .navbar .navbar-brand,
