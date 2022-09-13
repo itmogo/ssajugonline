@@ -3,7 +3,8 @@
     --primary: #3240c3;
     --light: #F6F7F8;
     --dark: #1A2A36;
-    --primary-new: #ebe716;
+    --primary-new: rgb(197, 149, 16)
+    
     
 }
 
@@ -25,6 +26,7 @@
     right: 45px;
     bottom: 45px;
     z-index: 99;
+
 }
 
 
@@ -49,9 +51,16 @@
     transition: .5s;
 }
 
+.btn-primary{
+    color: var(--primary);
+
+}
+
 .btn.btn-primary,
 .btn.btn-outline-primary:hover {
+    
     color: #FFFFFF;
+    background-color: var(--primary);
 }
 
 .btn-square {
@@ -83,6 +92,7 @@
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
+    background-color: rgb(197, 149, 16);
 }
 
 .navbar .navbar-brand,
@@ -93,7 +103,19 @@
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: var(--dark);
+    color: rgb(197, 149, 16);
+    /* color: var(--dark); */
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: none;
+} 
+
+.navbar .navbar-nav .nav-link li:hover{
+    margin-right: 30px;
+    padding: 25px 0;
+    color: var(--primary);
+    /* color: var(--dark); */
     font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
@@ -112,6 +134,7 @@
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
+    color: var(--primary);
 }
 
 @media (max-width: 991.98px) {
@@ -141,6 +164,7 @@
         visibility: visible;
         transition: .5s;
         opacity: 1;
+        
     }
 }
 
@@ -174,6 +198,18 @@
         font-size: 16px !important;
     }
 }
+
+@media (max-width: 487px) {
+   
+    .header-carousel .owl-carousel-item h6,
+    .header-carousel .owl-carousel-item p
+    
+    {
+        font-size: 10px !important;
+
+    }
+}
+
 
 .header-carousel .owl-dots {
     position: absolute;
@@ -269,7 +305,7 @@
 
 .service-item:hover .service-icon {
     color: #FFFFFF;
-    background: var(--primary-new);
+    
 }
 
 
@@ -544,7 +580,7 @@
     display: block;
     margin-bottom: 5px;
     padding: 0;
-    text-align: left;
+    text-align: left;    
     color: #9B9B9B;
     font-weight: normal;
     text-transform: capitalize;
@@ -584,12 +620,26 @@
    
   }
 
-  .list-mission {
+  .list-mission {   
+    text-align: justify;    
    
-   
-    text-align: justify;
+  }
+
+  .blue-color{
+    color: var(--primary);
+  }
+  .yellow-color{
+    color: rgb(197, 149, 16)
+  }
+
+  .navbar  .dropdown-menu a:hover{
+    background-color:rgba(197, 149, 16);
+    color: var(--primary)
+  }
+
+  .navbar .dropdown-menu a{
     
-   
+    color: rgba(197, 149, 16);
   }
 
  
